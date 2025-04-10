@@ -8,6 +8,13 @@ Internship Programm-2024**.
 ## Main Purpose of this Project
 Understanding the Fractionalised Excitations, identifying the Signatures of Majorana Fermions in the Kitaev Honeycomb Model. 
 
+Hamiltonian for the Kitaev Honeycomb Model:
+
+$$ H  = -J_x \sum_{\langle j,k\rangle}\sigma_j^x\sigma_k^x -J_y \sum_{\langle j,k\rangle}\sigma_j^y\sigma_k^y -J_z \sum_{\langle j,k\rangle}\sigma_j^z\sigma_k^z = -\sum_{\langle j,k\rangle} J_{\alpha} \ \sigma_j^{\alpha}\sigma_k^{\alpha} $$
+
+If $(j,k)$ is an $\alpha-$ link. Where $\alpha = x,y,z$ and $J_x,J_y,J_z$ are model parameters
+
+
 ### Current State of this Project
 The Project (in GitHub) started on **April 10, 2025**. This project is still in progress and will be regularly updated based on the progress I make.
 
