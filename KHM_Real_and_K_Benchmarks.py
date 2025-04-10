@@ -115,7 +115,7 @@ def E_0(L1, L2, t, jx, jy, jz):
 def E_K0(L1, L2, t, Jx, Jy, Jz):                                ####################### function to compute the K-space energy eigenvalues
   '''
   To evaluate the following expression (Momentum Space Eigenvalues) :
-  f(k) = J_x e^{i q.n_1} + J_y e^{i q.n_2} + J_a
+  f(k) = J_x e^{i q.n_1} + J_y e^{i q.n_2} + J_z
   '''
     def K(L1, L2, t):                                           ############################################# function for momentum values
         k = np.zeros((L1 * L2, 2), dtype = complex)
