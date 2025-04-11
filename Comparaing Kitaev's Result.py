@@ -242,7 +242,7 @@ for i, l in enumerate(sys_size2p):
 rE2p = np.array(rE2p)
 
 ##########################################################################################################################################
-################# Ground State Energy per unit cell in the 2-flux state (Calculations for Twisted Boundary Conditions) ####################
+################# Ground State Energy per unit cell in the 2-flux state (Calculations for Twisted Boundary Conditions) ###################
 ##########################################################################################################################################
 
 GE2t = []                                          ### Empty List to store the Ground State Energy per unit cell of a 2-flux state in PBC
