@@ -15,6 +15,9 @@ $$ H  = -J_x \sum_{\langle j,k\rangle}\sigma_j^x\sigma_k^x -J_y \sum_{\langle j,
 If $\langle j,k\rangle$ is a nearest-neighbor $\alpha-$ link. Where $\alpha = x,y,z$ and $J_x,J_y,J_z$ are model parameters
 
 
+### REMARKS!
+Remember that $L_1$ and $L_2$ that are used in the codes, currently can't take seperate values and the codes (most of the time) will only work (give error free results) if $L_1=L_2$
+
 ### Current State of this Project
 The Project (in GitHub) started on **April 10, 2025**. This project is still in progress and will be regularly updated based on the progress I make.
 
