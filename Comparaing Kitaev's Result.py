@@ -268,12 +268,12 @@ rE2t = np.array(rE2t)
 ##########################################################################################################################################
 ################# Ground State Energy per unit cell in the 0-flux state (PLOTS for Periodic/Twisted Boundary Conditions) #################
 ##########################################################################################################################################
-
-plt.plot(sysL3[50:], GE0p[50:], marker = 'o', markersize = 2, linewidth = 0.6, label = r"$0-$flux State : PBC")
-plt.plot(sysL3[50:], GE0t[50:], marker = 's', markersize = 2, linewidth = 0.6, label = r"$0-$flux State : TBC")
+sysL = sys_size0p
+plt.plot(sysL, GE0p, marker = 'o', markersize = 2, linewidth = 0.6, label = r"$0-$flux State : PBC")
+plt.plot(sysL, GE0t, marker = 's', markersize = 2, linewidth = 0.6, label = r"$0-$flux State : TBC")
 plt.ylabel(r"Ground State Energy per unit cell : $E_0$")
 plt.xlabel(r"System Size : $L_1 = L_2 = L $")
-plt.title(r"Maximum System Size : $L_1 = L_2 = 50$")
+plt.title(f"Maximum System Size : $L_1 = L_2 = {np.max(sysL)}$")
 plt.grid(True, linestyle = "--", alpha = 0.5)
 # plt.axhline(y = -1.5746, color='r', linestyle='--', linewidth = 0.5, label=r"$E_{GS}^0 \approx -1.57460$")
 plt.axhline(y = -1.5745974, color='g', linestyle='--', linewidth = 0.5, label=r"$E_{GS}^0 \approx -1.5745974$")
