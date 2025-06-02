@@ -16,11 +16,11 @@ If $\langle j,k\rangle$ is a nearest-neighbor $\alpha-$ link. Where $\alpha = x,
 
 
 ### REMARKS!
-Remember that $L_1$ and $L_2$ that are used in the codes, currently can't take seperate values and the codes (most of the time) will only work (give error free results) if $L_1=L_2$
+Remember that $L_1$ and $L_2$ that are used in the codes, currently can't take separate values, and the codes (most of the time) will only work (give error-free results) if $L_1=L_2$
 
 ### Current State of this Project
 The Project (in GitHub) started on **April 10, 2025**. This project is still in progress and will be regularly updated based on the progress I make.
 
 ## CREDIT POLICY
-I humbly request everyone who wants to follow my work and codes. If you find any mistakes or modifications that are required, please don't hesitate to email me about them, and due credits will be given
-to the person concerned. Similarly, if you use any part of my code, please use it without any hesitation and with due credits and citations.
+I humbly request that everyone who wants to follow my work and code, if you find any mistakes or modifications that are required, please don't hesitate to email me about them, and due credit will be given
+to the person concerned. Similarly, if you use any part of my code, please use it without any hesitation and with due credit and citations.
